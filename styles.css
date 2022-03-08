@@ -1,0 +1,28 @@
+/*font-family: 'Nunito Sans', sans-serif;
+font-family: 'Yeseva One', cursive;*/
+
+.header {
+  background-color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-item{
+  color: #E3B873;
+}
+
+.logo {
+  color: #E3B873;
+}
+
+.header-navigation {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav-item {
+  font-size: 11px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
