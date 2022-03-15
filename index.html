@@ -2,6 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <!--screen size-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--css-->
     <link href="./styles.css" rel="stylesheet" type="text/css">
     <!--fonts-->
@@ -12,24 +14,118 @@
 
   <body>
     <header class="header">
-      <div class="logo">
-        IC "Repair Design Project"
-      </div>
-      <nav>
-        <ul class="header-navigation">
-          <li class="header-nav-item home-item"><a href="#">HOME</a></li>
-          <li class="header-nav-item"><a href="#">PROJECTS</a></li>
-          <li class="header-nav-item"><a href="#">MEASUREMENT</a></li>
-          <li class="header-nav-item"><a href="#">TEAM</a></li>
-          <li class="header-nav-item"><a href="#">REVIEW</a></li>
-          <li class="header-nav-item"><a href="#">CONTACTS</a></li>
-        </ul>
-      </nav>
-      <div>
-        <a href="tel:+79287683239">+7 (928) 768-32-39</a>
-        <button class="button">REQUEST A CALL</button>
+      <div class="container header-content">
+        <span class="logo nowrap">
+          IC "Repair Design Project"
+        </span>
+        <nav>
+          <ul class="header-navigation">
+            <li class="header-navigation-item home-item"><a href="#"><span class="beige">HOME</span></a></li>
+            <li class="header-navigation-item"><a href="#">PROJECTS</a></li>
+            <li class="header-navigation-item"><a href="#">MEASUREMENT</a></li>
+            <li class="header-navigation-item"><a href="#">TEAM</a></li>
+            <li class="header-navigation-item"><a href="#">REVIEW</a></li>
+            <li class="header-navigation-item"><a href="#">CONTACTS</a></li>
+          </ul>
+        </nav>
+        <a class= "phone-num nowrap" href="tel:+79287683239">+7 (928) 768-32-39</a>
+        <button class="button button-beige nowrap">Request a call</button>
       </div>
     </header>
+    
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container first-container">
+          <h1 class="title">
+            Turnkey repair in the city of <span class="beige">Rostov-on-Don</span>
+          </h1>
+          <p class="paragraph">
+            Get ready-made turnkey repairs on time<br>
+            with work time saving up to 45 days and 20% from<br>
+            cost of materials due to the organization of work
+          </p>
+          <br>
+            <button class="button button-beige nowrap">calculate the cost</button>
+            <button class="button button-transparent nowrap">submit your application </button>
+          
+        </div>
+      </section>
 
+      <section class="slide2">
+        <div class="container containerMinus43">  <!--blue div-->
+          <ul class="projectNames">
+            <li class="projectNames-item"> <a href="#" class="beige">Rostov-on-Don, admiral</a></li>
+            <li class="projectNames-item">Sochi, thieves</li>
+            <li class="projectNames-item">Rostov-on-Don, patriotic</li>
+          </ul>
+          <div clas="description-container"> <!--green div-->
+            <div class="description-text-wrapper"> <!--purple div-->
+              <img src="images/pic_slide2.jpg" class="picture-slide2">
+              <h2 class="beige header-slide2">
+                COMPLETED<br>PROJECTS
+              </h2>
+              <p class="text-14-white">
+                Only a small part of the work performed by our company is presented<br>on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families
+              </p>
+              <div class="description-details-wrapper">
+                <div class="description-detail">
+                  <h3 class="beige slide2-mini-header">CITY:</h3>
+                  <span class="text-13-white">Rostov-on-Don<br>LCD admiral</span>
+                </div>
+                <div class="description-detail">
+                  <h3 class="beige slide2-mini-header nowrap">APARTMENT AREA:</h3>
+                  <span class="text-13-white">81 m2</span>
+                </div>
+                <div class="description-detail">
+                  <h3 class="beige slide2-mini-header">REPAIR TIME:</h3>
+                  <span class="text-13-white">3.5 months</span>
+                </div>
+                <div class="description-detail">
+                  <h3 class="beige slide2-mini-header">REPAIR COST:</h3>
+                  <span class="text-13-white">Upon request</span>
+                </div>
+              </div>
+              <img src="images/non-functional-slider.jpg">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide3">
+        <div class="content-slide3"> <!--blue container-->
+          <h3 class="subtitle-slide3">ONLINE CONTROL</h3>
+          <img src="images/cam-logo_slide3.svg" alt="cctv-camera" class="center">
+          <div class="image6-slide3-wrapper"> 
+            <img src="images/image-6.jpg" alt="a dude on a ladder" class="pic-slide3 center">
+            <div class="pic-slide3-overlay"></div>
+            <img src="images/play-button.svg" class="play-button">
+          </div>
+          <hr class="hr-slide3 beige">
+          <p class="description-slide3">
+            At each facility, a camera is installed that broadcasts the progress of work on the<br>
+            clock. At any time, you can go to our website and monitor the progress of work in<br>
+            your apartment. You can watch the live broadcast from one of our facilities!<br>
+            Leave a request below and you will receive a link to the broadcast.
+          </p>
+          <form class="form-slide3">
+            <div class="form-inputs-slide3">
+              <label class="form-input-name">Name<input type="text" class="form-input" placeholder="What is your name:"></input></label>
+              <label class="form-input-name">Phone:<input type="text" class="form-input" placeholder="Your phone number:"></input></label>
+              <button class="button-beige button-text-slide3">submit</button>
+            </div>
+
+            <div class="first-checkbox nowrap">
+              <label class="label">
+                <input type="checkbox" class="checkbox" >
+                <span class="fake"></span>
+                <span class="text">I agree to the processing of personal data.</span>
+              </label>
+            </div>           
+          </form>
+        </div>
+      </section>
+
+    </main>
   </body>
 </html>
