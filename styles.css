@@ -154,6 +154,7 @@ body * { /* * is a universal selector*/
   list-style: none;
   display: flex;
   margin-left: 569px;
+  margin-top: 0px;
 }
 
 .projectNames-item {
@@ -393,4 +394,298 @@ body * { /* * is a universal selector*/
   color: #181818;
   margin-left: 240px;
   margin-top: 40px;
+  margin-bottom: 148px;
+}
+
+
+.container4 {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.subtitle-slide4 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+}
+
+.repair_options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+.option-description {
+  margin-top: -130px;
+  background-color: white;
+  position: relative;
+  width: 330px;
+  height: 286px;
+  margin-left: 31px;
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.option-subtitle {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #363636;
+  padding-left: 34px;
+  padding-top: 28px;
+}
+
+.option-list {
+  padding-left: 34px;
+  list-style-position: inside;
+}
+
+.option-list-item {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+
+  color: #959595;
+  /*padding-left: 0px;*/
+}
+
+.pic_slide4 {
+  position: relative;
+}
+
+.option-list-item::marker {
+  margin-left: 4px;
+}
+
+.option-pricing {
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  border: none;
+
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  width: 228px;
+  height: 54px;
+  margin-left: 1px;
+  text-align: center;
+  padding: 17px 0 17px;
+}
+
+.container4-1 {
+  padding-right: 8px;
+}
+
+.building-slide4 {
+  position: absolute;
+  margin-top: 152px;
+  width: 763px;
+  height: 645px;
+  margin-left: -109px;
+}
+
+.advantages-list {
+  margin-top: 0px;
+  list-style-position: outside;
+  padding-inline-start: 0px;
+  margin-left: 302px;
+}
+
+.advantages-wrapper {
+  position: absolute;
+  margin-top: 269px;
+  margin-left: -109px;
+}
+
+.advantage {
+  list-style: none;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #363636;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 85px;
+  margin-left: 9px;
+}
+
+.outer-circle {
+  background: white;
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+  position: relative;
+  /* 
+   Child elements with absolute positioning will be 
+   positioned relative to this div 
+  */
+}
+
+.inner-circle {
+  position: absolute;
+  background: #E3B873;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  /*
+   Put top edge and left edge in the center
+  */
+  top: 50%;
+  left: 50%;
+  margin: -21px 0px 0px -21px;
+  /* 
+   Offset the position correctly with
+   minus half of the width and minus half of the height 
+  */
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+.request-wrapper {
+  position: absolute;
+  margin-top: 269px;
+  margin-left: 830px;
+  background-color: black;
+  width: 506px;
+  height: 509px;
+}
+
+.form-inputs-s4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-s4 {
+  color: white;
+}
+
+.form-input-name-s4 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  width: 408px;
+
+  margin-left: 49px;
+  margin-bottom: 48px;
+}
+
+.request-form-s4-subtitle {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin-bottom: 39px;
+  margin-top: 28px;
+}
+
+.form-input-s4::placeholder {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;  
+}
+
+.form-input-s4 {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 7px;
+  }
+
+  .first-checkbox-s4 {
+    margin-left: 49px;
+    margin-bottom: 33px;
+    margin-top: 0px;
+  }
+
+  .button-text-s4 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    width: 213px;
+    height: 51px;
+  
+  
+    align-self: start;
+
+    border-style: solid;
+    border-color: #E3B873;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    margin: 0;
+    padding: 0;
+    margin-left: 244px;
+  }
+
+.bottom-input {
+  margin-bottom: 16px;
+}
+
+.form-bottom-text-s4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 44px;
+  margin-left: 21px;
+}
+
+.piggy-bank-text {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #E3B873;
+
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
