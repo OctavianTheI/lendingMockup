@@ -210,10 +210,23 @@ body * { /* * is a universal selector*/
 }
 
 .slide2-mini-header{
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
   margin-bottom: 0px;
 }
 
 .header-slide2 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+
   margin-bottom: 0px;
 }
 
@@ -490,27 +503,30 @@ body * { /* * is a universal selector*/
 
 .container4-1 {
   padding-right: 8px;
+  position: relative;
+  height: 1113px;
 }
 
 .building-slide4 {
   position: absolute;
   margin-top: 152px;
-  width: 763px;
+  width: 703px;
   height: 645px;
-  margin-left: -109px;
+  margin-left: -102px;
+  box-shadow: none;
 }
 
 .advantages-list {
   margin-top: 0px;
   list-style-position: outside;
   padding-inline-start: 0px;
-  margin-left: 302px;
+  margin-left: 0px;
 }
 
 .advantages-wrapper {
   position: absolute;
   margin-top: 269px;
-  margin-left: -109px;
+  margin-left: 139px;
 }
 
 .advantage {
@@ -571,8 +587,8 @@ body * { /* * is a universal selector*/
 
 .request-wrapper {
   position: absolute;
-  margin-top: 269px;
-  margin-left: 830px;
+  margin-top: 257px;
+  margin-left: 731px;
   background-color: black;
   width: 506px;
   height: 509px;
@@ -688,4 +704,176 @@ body * { /* * is a universal selector*/
   color: #E3B873;
 
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.container5 {
+  position: relative;
+  padding: 0px 8px;
+  display: flex;
+  
+}
+
+.slide5 {
+  position: relative;
+  background-image: url('images/slide5/slide5_background.svg');
+  height: 864px;
+}
+
+.slide5-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.header-s5 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  padding-top: 137px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.deco-styles-s5 {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  list-style: none;
+  list-style-position: inside;
+  
+  color: #FFFFFF;
+
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+
+  height: 513px;
+}
+
+.american-style {
+  color: #E3B873;
+  text-decoration: #E3B873 underline;
+}
+
+.pics-col1-s5 {
+  margin-left: 215px;
+  margin-top: -41px;
+}
+
+.pics-col2-s5 {
+  margin-left: 5px;
+  margin-top: -113px;
+}
+
+.left-text-s5 {
+  min-width: 280px;
+}
+
+.col1row2 {
+  margin-top: 32px;
+}
+
+.col2row2 {
+  margin-top: 31px;
+}
+
+.nav-s5 {
+  margin-top:36px ;
+}
+
+.li-s5 {
+  margin-top: 10px;
+}
+
+.slide6 {
+  background-color: white;
+  position: relative;
+  height: 1108px;
+}
+
+.header-s6 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #181818;
+  padding-top: 111px;
+}
+
+.partner-logo-s6 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.desc-s6 {
+  width: 365px;
+  margin: 25px auto 43px auto;
+  text-align: center;
+}
+
+.clients-words {
+  width: 376px;
+  height: 455px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  padding: 0px 20px 0px 20px;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  
+  color: #959595;
+}
+
+.testimonies {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portrait {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #181818;
+
+  margin-top: 24px;
+  height: 86px;
+}
+
+.name-s6 {
+  width: 178px;
+  padding-left: 20px;
+}
+
+.client-details {
+  margin-top: 37px;
+  margin-left: -20px;
+}
+
+.city-wrapper {
+  margin-top: -394px;
+  max-width: 1440px;
+  width: 1256px;
 }
