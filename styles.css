@@ -167,6 +167,12 @@ body * { /* * is a universal selector*/
   line-height: 19px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.renovation1 {
+  color:#E3B873;
+  text-decoration: underline;
 }
 
 .description-details-wrapper {
@@ -208,6 +214,7 @@ body * { /* * is a universal selector*/
 
 .picture-slide2 {
   float:right;
+  transition: opacity 800ms ease;
 }
 
 .slide2-mini-header{
@@ -1048,4 +1055,30 @@ footer {
 
 .footer-content {
   padding-top: 55px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+.functional-radio {
+  width: 206px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dot1 {
+  background-color: #FFFFFF;
+}
+
+.arrow {
+  cursor: pointer;
 }

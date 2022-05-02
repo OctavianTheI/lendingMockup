@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--css-->
     <link href="./styles.css" rel="stylesheet" type="text/css">
+
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,13 +56,13 @@
       <section class="slide2">
         <div class="container containerMinus43">  <!--blue div-->
           <ul class="projectNames">
-            <li class="projectNames-item"> <a href="#" class="beige">Rostov-on-Don, admiral</a></li>
-            <li class="projectNames-item">Sochi, thieves</li>
-            <li class="projectNames-item">Rostov-on-Don, patriotic</li>
+            <li onclick="click1()" class="projectNames-item renovation1"> <a>Rostov-on-Don, Admiral</a></li>
+            <li onclick="click2()" class="projectNames-item renovation2">Sochi, thieves</li>
+            <li onclick="click3()" class="projectNames-item renovation3">Rostov-on-Don, patriotic</li>
           </ul>
           <div clas="description-container"> <!--green div-->
             <div class="description-text-wrapper"> <!--purple div-->
-              <img src="images/pic_slide2.jpg" class="picture-slide2">
+              <img src="images/slide2/pic1.jpg" class="picture-slide2">
               <h2 class="beige header-slide2">
                 COMPLETED<br>PROJECTS
               </h2>
@@ -71,22 +72,28 @@
               <div class="description-details-wrapper">
                 <div class="description-detail">
                   <h3 class="beige slide2-mini-header">CITY:</h3>
-                  <span class="text-13-white">Rostov-on-Don<br>LCD admiral</span>
+                  <span class="text-13-white renovationDetail1">Rostov-on-Don<br>LCD admiral</span>
                 </div>
                 <div class="description-detail">
                   <h3 class="beige slide2-mini-header nowrap">APARTMENT AREA:</h3>
-                  <span class="text-13-white">81 m2</span>
+                  <span class="text-13-white renovationDetail2">81 m2</span>
                 </div>
                 <div class="description-detail">
                   <h3 class="beige slide2-mini-header">REPAIR TIME:</h3>
-                  <span class="text-13-white">3.5 months</span>
+                  <span class="text-13-white renovationDetail3">3.5 months</span>
                 </div>
                 <div class="description-detail">
                   <h3 class="beige slide2-mini-header">REPAIR COST:</h3>
-                  <span class="text-13-white">Upon request</span>
+                  <span class="text-13-white renovationDetail4">Upon request</span>
                 </div>
               </div>
-              <img src="images/non-functional-slider.jpg">
+              <div class="functional-radio">
+                <img onclick="clickLeft()" src="images/slide2/left-arrow.svg" class="radio-left-arrow arrow">
+                <div onclick="click1()" class="dot dot1"></div>
+                <div onclick="click2()" class="dot dot2"></div>
+                <div onclick="click3()" class="dot dot3"></div>
+                <img onclick="clickRight()" src="images/slide2/right-arrow.svg" class="radio-right-arrow arrow">
+              </div>
             </div>
           </div>
         </div>
@@ -369,6 +376,10 @@
         <img src="images/slide7/logo-s7.svg" class="logo-s7">
         <img src="images/slide7/map-s7.svg" class="map-s7">
       </section>
+
+
+      <!--js-->
+      <script src="functionality.js"></script>
     </main>
 
     <footer>

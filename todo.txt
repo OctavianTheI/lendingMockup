@@ -1,0 +1,11 @@
+fix city-s6-mirrored/non mirrored on wide screens.
+
+add animation on change of pictures (not sure if for this tranisition style it
+is possible, but try anyway
+
+add video and animate on hover
+
+add submit buttons
+
+better slider: lesson 8.8 code. Uses an array of images, uses "active" instead of
+  overwriting the "src" attribute
